@@ -1,0 +1,29 @@
+# RealityEngine Security Ignore Protocol
+
+# Ignore compiled binaries and build artifacts
+build/
+*.exe
+*.obj
+*.o
+*.lib
+*.dll
+*.pdb
+*.ilk
+
+# Ignore CMake auto-generated cache and telemetry
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio local configurations
+.vs/
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+
+# Ignore user-generated 3D exports to keep the repo pristine
+*.obj
+*.stl
+*.step
